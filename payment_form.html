@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratik Pay</title>
+    <link rel="stylesheet" href="externalcssexample.css" />
+  </head>
+  <body>
+    <div class="wholedoc"> 
+      <form action="">
+        <h1 class="main_heading">Payment Form</h1>
+        <hr />
+        <p style="color: red">Required fields *</p>
+        <h2 style="color: rgba(106, 7, 163, 0.795)">Contact Information</h2>
+        <p>
+          Name: *<input
+            class="naamme"
+            type="text"
+            name="name"
+            placeholder="sumit chauhan"
+            required
+          />
+        </p>
+        <fieldset>
+          <legend>Gender</legend>
+          <p>
+            Male <input type="radio" name="gender" id="Male" /> Female
+            <input type="radio" name="gender" id="Female" /> Other
+            <input type="radio" name="gender" id="Other" />
+          </p>
+        </fieldset>
+        <p>Address:</p>
+        <p>
+          <textarea
+            class="naamme"
+            name="address"
+            id="address"
+            cols="75"
+            placeholder="Your full address"
+            rows="10"
+          ></textarea>
+        </p>
+        <p>
+          Email: *<input
+            class="naamme"
+            type="email"
+            name="email"
+            placeholder="css.sumit1920@gmail.com"
+            id="email"
+            required
+          />
+        </p>
+        <p>
+          PinCode:
+          <input
+            class="naamme"
+            type="number"
+            name="pincode"
+            id="pincode"
+            placeholder="425000"
+          />
+        </p>
+        <hr />
+        <h2>Payment Information</h2>
+        <p>
+          Card Type:*
+          <select name="card_type" class="naamme" id="card_type" required>
+            <option value="">&nbsp; Select a Card Type &nbsp;</option>
+            <option value="visa">Visa</option>
+            <option value="Matercard">Matsercard</option>
+            <option value="Rupay">rupay</option>
+          </select>
+        </p>
+        <p>
+          Card Number: *<input type="number" class="naamme" name="card_number"
+          id="card_number" required placeholder="1111 2222 3333 4444"
+        </p>
+        <p>
+          Expiration Date: *<input class="naamme" type="date" name="exp_date"
+          id="exp_date"required
+        </p>
+        <p>
+          CVV: *<input
+            class="naamme"
+            type="password"
+            name="cvv"
+            placeholder="999"
+            id="cvv"
+            required
+          />
+        </p>
+        <input type="submit" class="subbutton" value="Pay Now" />
+        <br />
+        <br />
+        <br />
+        <hr />
+        <p> Pratik bari Company Pvt. Ltd. India</p>
+        <!-- here -->
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- Completed -->
